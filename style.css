@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#quadro {
+    margin-top: 0.5vh;
+    background: url("imgs/quadro.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex: 4;
+    position: relative;
+}
+
+#blocos {
+
+    position: absolute;
+    inset: 0;
+}
+
+#mesa {
+    background: url("imgs/mesa.png") top center no-repeat;
+    background-size: contain;
+    flex: 1;
+    margin-top: 5vh;
+}
+
+#decoracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 100%;
+}
+
+#pilhaPostits {
+
+
+}
+
+#pilhaConcluidas {
+    margin-bottom: 13vh;
+    
+
+}
